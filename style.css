@@ -1,0 +1,35 @@
+/* reset */
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* ------------- */
+
+.container {
+    background-color: #cbd5e1;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    height: 100vh;
+}
+
+.header {
+    background-color: white;
+}
+
+.sidebar {
+    background-color: #22d3ee;
+}
+
+.header .main-content {
+    grid-column: 2/3;
+}
+
+.sidebar {
+    grid-row: 1/3;
+}
