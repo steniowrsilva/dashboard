@@ -24,6 +24,8 @@ body,html {
 
 .sidebar {
     background-color: #22d3ee;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .header .main-content {
