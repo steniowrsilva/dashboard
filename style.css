@@ -91,10 +91,16 @@ body,html {
 .project {
     background-color: white;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .anouncements, .trending {
-    padding: 20px;
+    padding: 10px;
+    
+}
+
+.text {
+    padding-bottom: 10px;
 }
 
 .anouncements-content, .trending-content {
@@ -105,6 +111,7 @@ body,html {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+    
 }
 
 /* .anouncement, .topic {
